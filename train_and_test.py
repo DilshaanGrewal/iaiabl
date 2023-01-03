@@ -5,6 +5,7 @@ import numpy as np
 import pandas as pd
 import csv
 from helpers import list_of_distances, make_one_hot
+# pylint: disable=no-member
 
 def _train_or_test(model, dataloader, optimizer=None, class_specific=True, use_l1_mask=True,
                    coefs=None, log=print, save_logits=False, finer_loader=None):

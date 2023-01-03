@@ -20,7 +20,7 @@ import pydicom as dcm
 import Augmentor
 from tqdm import tqdm
 import pathlib
-from torch import randint, manual_seed
+from torch import randint, manual_seed #pylint: disable=no-name-in-module
 from copy import copy
 from collections import defaultdict
 
