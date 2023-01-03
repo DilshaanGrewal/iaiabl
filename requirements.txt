@@ -1,0 +1,13 @@
+Augmentor==0.2.10
+matplotlib
+numpy
+pandas
+Pillow==9.3.0
+pydicom==2.3.1
+pypng==0.20220715.0
+scikit_learn
+scipy
+scikit-image
+torch
+torchvision
+tqdm==4.64.1
